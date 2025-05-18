@@ -22,7 +22,7 @@ const Header = () => {
             </h1>
 
             <div  className='relative md:justify-self-center'>
-                <button className='menu-btn ' onClick={null}>  
+                <button className='menu-btn ' onClick={() => setNavOpen((prev) => !prev)}>  
                     <span className='material-symbols-rounded '>
                         menu
                     </span>
