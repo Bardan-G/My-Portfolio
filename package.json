@@ -12,6 +12,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
     "clsx": "^2.1.1",
+    "font": "^0.0.4",
+    "google": "^2.1.0",
     "motion": "^12.12.1",
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
