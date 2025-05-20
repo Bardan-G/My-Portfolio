@@ -45,7 +45,7 @@ const Work = () => {
   return (
     <section id="work" className="section">
         <div className="container">
-            <h2 className="headline-2 mb-8">
+            <h2 className="headline-2 mb-8 reveal-up">
                 My portfolio highlights
 
             </h2>
@@ -56,7 +56,8 @@ const Work = () => {
                     imgSrc={imgSrc}
                     title={title}
                     tags={tags}
-                    projectLink={projectLink}/>
+                    projectLink={projectLink}
+                    classes="reveal-up"/>
                 ))}
             </div>
         </div>
