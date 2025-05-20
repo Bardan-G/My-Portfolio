@@ -89,3 +89,7 @@ html{
  .headline-1{
     @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
  }
+
+ .title-1{
+    @apply text-[22px] font-normal 
+ }
