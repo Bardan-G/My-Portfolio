@@ -59,7 +59,7 @@ const Navbar = (  {navOpen}) => {
         {
           label: 'Contact',
           link: '#contact',
-          className: 'nav-link max-md:hidden'
+          className: 'nav-link '
         }
       ]; 
   return (
