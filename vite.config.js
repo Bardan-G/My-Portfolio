@@ -7,11 +7,8 @@ import path from 'path'
 
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [tailwindcss(),react],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'), // if your source files are in 'src'
-    },
-  },
-})
+export default {
+  base:'/',
+  plugins: [tailwindcss(),react()],
+ 
+}
