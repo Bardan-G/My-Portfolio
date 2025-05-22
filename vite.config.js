@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // ✅ Use '/' for custom domain (like bardangneupane.com.np)
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
