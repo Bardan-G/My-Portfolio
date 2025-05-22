@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import { rect } from 'motion/react-client'
 import path from 'path'
 
-
-
-// https://vite.dev/config/
-export default {
-  base:'/My-Portfolio',
-  plugins: [tailwindcss(),react()],
- 
-}
+// https://vitejs.dev/config/
+export default defineConfig({
+  base: '/', // ✅ Use '/' for custom domain (like bardangneupane.com.np)
+  plugins: [react()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
+})
