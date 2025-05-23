@@ -12,14 +12,14 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 
 import React from 'react'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Skill from '../components/Skill'
-import Work from '../components/Work'
-import Review from '../components/Review'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skill from './components/Skill'
+import Work from './components/Work'
+import Review from './components/Review'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import { element } from 'prop-types';
 
 const App = () => {
