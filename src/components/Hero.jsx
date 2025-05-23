@@ -1,5 +1,7 @@
 import React from 'react'
 import {ButtonPrimary,ButtonOutline} from './Button'
+import Avatar from "../images/avatar-1.jpg"
+import ProfilePicture from "../images/hero-banner.png"
 
 const Hero = () => {
   return (
@@ -8,7 +10,7 @@ const Hero = () => {
         <div className=''>
             <div className='flex items-center gap-3'>
                 <figure className=" img-box w-9 h-9 rounded-lg">
-                    <img src="../src/images/avatar-1.jpg" width={40} height={40} alt="Bardan Portfolio " className='img-cover' />
+                    <img src={Avatar} width={40} height={40} alt="Bardan Portfolio " className='img-cover' />
                 </figure>
                 <div className=" flex  items-center  gap-1.5  text-zinc-400 text-sm tracking-wide">
                     <span className=" relative w-2 h-2 bg-emerald-400 rounded-full  ">
@@ -36,7 +38,7 @@ const Hero = () => {
 
         <div className=" hidden lg:block ">
             <figure className=" w-full w-max-[480px] mal-auto bg-gradient-to-t from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden">
-                <img src="../src/images/hero-banner.png" width={656} height={800} alt="Bardean Profile Image" className='w-full' />
+                <img src={ProfilePicture} width={656} height={800} alt="Bardean Profile Image" className='w-full' />
             </figure>
         </div>
     </div>
