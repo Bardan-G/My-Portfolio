@@ -7,6 +7,7 @@ import { header } from "motion/react-client";
 import React from "react";
 import Navbar from "./Navbar";
 import { useState } from "react";
+import Logo from "../src/images/logo.svg"
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
         <h1>
           <a href="" className="">
             <img
-              src="../src/images/logo.svg"
+              src= {Logo}
               width={40}
               height={40}
               alt=" logo"
