@@ -1,7 +1,7 @@
 import React from 'react'
 import {ButtonPrimary,ButtonOutline} from './Button'
-import Avatar from "../images/avatar-1.jpg"
-import ProfilePicture from "../images/hero-banner.png"
+import Avatar from "../images/avatar.jpg"
+import ProfilePicture from "../images/Profile.png"
 
 const Hero = () => {
   return (
