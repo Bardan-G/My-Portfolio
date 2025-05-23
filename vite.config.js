@@ -4,7 +4,7 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
-export default ({
+export default  ({
   base: '/',
   plugins: [tailwindcss(),react()],
   
