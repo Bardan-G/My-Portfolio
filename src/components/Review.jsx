@@ -16,25 +16,25 @@ const reviews = [
   {
     content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
     name: 'Sophia Ramirez',
-    imgSrc: {Sophia},
+    imgSrc: Sophia,
     company: 'PixelForge'
   },
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
     name: 'Ethan Caldwell',
-    imgSrc: {Ethan},
+    imgSrc: Ethan,
     company: 'NexaWave'
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
     name: 'Liam Bennett',
-    imgSrc: {Liam},
+    imgSrc: Liam ,
     company: 'CodeCraft'
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
     name:'Noha Crist',
-    imgSrc: {Noha},
+    imgSrc: Noha,
     company: 'BrightWeb'
   },
   // {

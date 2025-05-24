@@ -32,11 +32,11 @@ const skillItem = [
     label: 'NodeJS',
     desc: 'Web Server'
   },
-  {
-    imgSrc: ExpressJs,
-    label: 'ExpressJS',
-    desc: 'Node Framework'
-  },
+  // {
+  //   imgSrc: ExpressJs,
+  //   label: 'ExpressJS',
+  //   desc: 'Node Framework'
+  // },
   {
     imgSrc: MongoDb,
     label: 'MongoDB',

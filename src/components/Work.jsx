@@ -9,14 +9,14 @@ import Projectfour from '../images/project-4.jpg';
 const works = [
   {
     imgSrc: {Projectone},
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
+    title: '3D iPhone Website',
+    tags: ['UI/UX, 3D models, custom animation'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
     imgSrc: {Projecttwo},
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
+    title: 'Brainwave Website',
+    tags: ['Deployment', 'SPA'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
