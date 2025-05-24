@@ -1,51 +1,59 @@
 import React from 'react'
 import SkillCard from './SkillCard';
-import Nextjs from '../images/nextjs.jpeg'
+import NextJs from '../images/expressjs.svg';
+import Css from '../images/css3.svg';
+import JavaScript from '../images/javascript.svg';
+import NodeJs from '../images/nodejs.svg';
+import ExpressJs from '../images/expressjs.svg';
+import Figma from '../images/figma.svg';
+import MongoDb from '../images/mongodb.svg';
+import React from '../images/react.svg';
+import Tailwindcss from '../images/tailwindcss.svg'
 
 
 const skillItem = [
   {
-    imgSrc: '../src/images/figma.svg',
+    imgSrc: {Figma},
     label: 'Figma',
     desc: 'Design tool'
   },
   {
-    imgSrc: '../src/images/css3.svg',
+    imgSrc: {Css},
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: '../src//images/javascript.svg',
+    imgSrc: {JavaScript},
     label: 'JavaScript',
     desc: 'Interaction'
   },
   {
-    imgSrc: '../src/images/nodejs.svg',
+    imgSrc: {NodeJs},
     label: 'NodeJS',
     desc: 'Web Server'
   },
   {
-    imgSrc: '../src/images/expressjs.svg',
+    imgSrc: {ExpressJs},
     label: 'ExpressJS',
     desc: 'Node Framework'
   },
   {
-    imgSrc: '../src/images/mongodb.svg',
+    imgSrc: {MongoDb},
     label: 'MongoDB',
     desc: 'Database'
   },
   {
-    imgSrc: '../src/images/react.svg',
+    imgSrc: {React},
     label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc :{Nextjs},
-    label: 'Nextjs',
+    imgSrc :{NextJs},
+    label: 'NextJs',
     desc: 'React Framework'
   },
   {
-    imgSrc: '../src/images/tailwindcss.svg',
+    imgSrc: {Tailwindcss},
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
