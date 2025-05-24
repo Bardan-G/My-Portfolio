@@ -1,6 +1,6 @@
 import { div, label } from 'motion/react-client';
 import React from 'react'
-
+import Logo from '../images/logo.svg'
 
 
 const aboutItems = [
@@ -37,7 +37,7 @@ const About = () => {
                             </div>
                         ))
                     }
-                    <img src="../src/images/logo.svg" width={30} height={30} alt="Logo" className='ml-auto md:w-[40px] md:h-[40px]' />
+                    <img src={Logo} width={30} height={30} alt="Logo" className='ml-auto md:w-[40px] md:h-[40px]' />
                 </div>
             </div>
         </div>
