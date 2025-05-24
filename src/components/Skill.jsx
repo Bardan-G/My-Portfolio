@@ -1,5 +1,6 @@
 import React from 'react'
 import SkillCard from './SkillCard';
+import Nextjs from '../images/nextjs.jpeg'
 
 
 const skillItem = [
@@ -37,6 +38,11 @@ const skillItem = [
     imgSrc: '../src/images/react.svg',
     label: 'React',
     desc: 'Framework'
+  },
+  {
+    imgSrc :{Nextjs},
+    label: 'Nextjs',
+    desc: 'React Framework'
   },
   {
     imgSrc: '../src/images/tailwindcss.svg',
