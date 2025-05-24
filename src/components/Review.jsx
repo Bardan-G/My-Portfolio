@@ -33,8 +33,8 @@ const reviews = [
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-    name:{Noha},
-    imgSrc: '../src/images/people-4.jpg',
+    name:'Noha Crist',
+    imgSrc: {Noha},
     company: 'BrightWeb'
   },
   // {
