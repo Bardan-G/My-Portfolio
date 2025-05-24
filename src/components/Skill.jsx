@@ -23,7 +23,7 @@ const skillItem = [
     desc: 'User Interface'
   },
   {
-    imgSrc: {JavaScript},
+    imgSrc:{JavaScript},
     label: 'JavaScript',
     desc: 'Interaction'
   },

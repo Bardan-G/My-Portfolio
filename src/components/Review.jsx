@@ -6,44 +6,49 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(useGSAP,ScrollTrigger);
+import Sophia from '../images/people-1.jpg';
+import Ethan from '../images/people-2.jpg';
+import Liam from '../images/people-3.jpg';
+import Noha from '../images/people-4.jpg'
+
 
 const reviews = [
   {
     content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
     name: 'Sophia Ramirez',
-    imgSrc: '../src/images/people-1.jpg',
+    imgSrc: {Sophia},
     company: 'PixelForge'
   },
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
     name: 'Ethan Caldwell',
-    imgSrc: '../src/images/people-2.jpg',
+    imgSrc: {Ethan},
     company: 'NexaWave'
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
     name: 'Liam Bennett',
-    imgSrc: '../src/images/people-3.jpg',
+    imgSrc: {Liam},
     company: 'CodeCraft'
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-    name: 'Noah Williams',
+    name:{Noha},
     imgSrc: '../src/images/people-4.jpg',
     company: 'BrightWeb'
   },
-  {
-    content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-    name: 'Ava Thompson',
-    imgSrc: '../src/images/people-5.jpg',
-    company: 'TechMosaic'
-  },
-  {
-    content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-    name: 'Jonathan',
-    imgSrc: '../src/images/people-6.jpg',
-    company: 'Skyline Digital'
-  }
+  // {
+  //   content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
+  //   name: 'Ava Thompson',
+  //   imgSrc: '../src/images/people-5.jpg',
+  //   company: 'TechMosaic'
+  // },
+  // {
+  //   content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
+  //   name: 'Jonathan',
+  //   imgSrc: '../src/images/people-6.jpg',
+  //   company: 'Skyline Digital'
+  // }
 ];
 
 const Review = () => {
