@@ -13,47 +13,47 @@ import Tailwindcss from '../images/tailwindcss.svg'
 
 const skillItem = [
   {
-    imgSrc: {Figma},
+    imgSrc: Figma,
     label: 'Figma',
     desc: 'Design tool'
   },
   {
-    imgSrc: {Css},
+    imgSrc: Css,
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc:{JavaScript},
+    imgSrc:JavaScript,
     label: 'JavaScript',
     desc: 'Interaction'
   },
   {
-    imgSrc: {NodeJs},
+    imgSrc: NodeJs,
     label: 'NodeJS',
     desc: 'Web Server'
   },
   {
-    imgSrc: {ExpressJs},
+    imgSrc: ExpressJs,
     label: 'ExpressJS',
     desc: 'Node Framework'
   },
   {
-    imgSrc: {MongoDb},
+    imgSrc: MongoDb,
     label: 'MongoDB',
     desc: 'Database'
   },
   {
-    imgSrc: {Reactt},
+    imgSrc: Reactt,
     label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc :{NextJs},
+    imgSrc :NextJs,
     label: 'NextJs',
     desc: 'React Framework'
   },
   {
-    imgSrc: {Tailwindcss},
+    imgSrc: Tailwindcss,
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
