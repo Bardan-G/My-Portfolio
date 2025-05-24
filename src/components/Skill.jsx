@@ -7,7 +7,7 @@ import NodeJs from '../images/nodejs.svg';
 import ExpressJs from '../images/expressjs.svg';
 import Figma from '../images/figma.svg';
 import MongoDb from '../images/mongodb.svg';
-import React from '../images/react.svg';
+import Reactt from '../images/react.svg';
 import Tailwindcss from '../images/tailwindcss.svg'
 
 
@@ -43,7 +43,7 @@ const skillItem = [
     desc: 'Database'
   },
   {
-    imgSrc: {React},
+    imgSrc: {Reactt},
     label: 'React',
     desc: 'Framework'
   },
