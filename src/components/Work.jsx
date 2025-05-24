@@ -1,32 +1,32 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
-import Project1 from '../images/project-1.jpg';
-import Project2 from '../images/project-2.jpg';
-import Project3 from '../images/project-3.jpg';
-import Project4 from '../images/project-4.jpg';
+import Projectone from '../images/project-1.jpg';
+import Projecttwo from '../images/project-2.jpg';
+import Projectthree from '../images/project-3.jpg';
+import Projectfour from '../images/project-4.jpg';
 
 
 const works = [
   {
-    imgSrc: {Project1},
+    imgSrc: {Projectone},
     title: 'Full stack music app',
     tags: ['API', 'MVC', 'Development'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
-    imgSrc: {Project2},
+    imgSrc: {Projecttwo},
     title: 'Free stock photo app',
     tags: ['API', 'SPA'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
-    imgSrc: {Project3},
+    imgSrc: {Projectthree},
     title: 'Recipe app',
     tags: ['Development', 'API'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
-    imgSrc: {Project4},
+    imgSrc: {Projectfour},
     title: 'Real state website',
     tags: ['Web-design', 'Development'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
