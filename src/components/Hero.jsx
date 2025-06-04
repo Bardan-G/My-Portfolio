@@ -3,6 +3,16 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 import Avatar from "../images/avatar.jpg";
 import ProfilePicture from "../images/Profile.png";
 
+
+const handleDownload = () => {
+  const link = document.createElement('a');
+  link.href = '/ing cv.pdf';  
+  link.download = 'MyCV.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 const Hero = () => {
   return (
     <section id="home" className="px-4 pt-28 lg:pt-36 ">
@@ -29,7 +39,7 @@ const Hero = () => {
             Building Scalable Modern Websites for the Future 
           </h2>
           <div className=" flex items-center  gap-3  ">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary label="Download CV" icon="download" onClick={handleDownload} />
 
             <ButtonOutline
               href="#about"
@@ -45,7 +55,7 @@ const Hero = () => {
               src= {ProfilePicture}
               width={656}
               height={800}
-              alt="Bardean Profile Image"
+              alt="Bardan Profile Image"
               className="w-full"
             />
           </figure>

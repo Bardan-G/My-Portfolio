@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Projectone from '../images/project-1.jpg';
 const ProjectCard = ({
     imgSrc,
     title,
@@ -7,6 +8,10 @@ const ProjectCard = ({
     projectLink,
     classes
 }) => {
+
+    console.log(imgSrc);
+    
+
   return (
     <div className={"relative p-4 rounded-2xl bg-zinc-400 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 rin-inset ring-zinc-50/5 transition-colors"+classes}>
         <figure className="img-box aspect-square rounded-lg mb-4">

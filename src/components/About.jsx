@@ -23,7 +23,7 @@ const About = () => {
         <div className="container">
             <div className=" bg-zinc-800/50 p-7 rounded-2xl overflow-hidden md:p-12 reveal-up"> 
                 <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] font-medium tracking-wide ">
-                    Welcome! I&apos;m Bardan G Neupane, a passionate web developer and from BSC(Hons) student from Nepal. I specialize in front-end development using React and JavaScript, and I'm currently learning full-stack development. My goal is to build clean, functional websites that create a smooth user experience. Feel free to explore my projects or get in touch to transform your vision into digital masterpiece that excels in both appearance and performance.
+                    Welcome! I&apos;m Bardan G Neupane, a passionate web developer and  BSC(Hons) student from Nepal. I specialize in front-end development using React and JavaScript, and I'm currently learning full-stack development. My goal is to build clean, functional websites that create a smooth user experience. Feel free to explore my projects or get in touch to transform your vision into digital masterpiece that excels in both appearance and performance.
                 </p>
                 <div className=" flex flex-wrap items-center gap-4 md:gap-7">
                     {

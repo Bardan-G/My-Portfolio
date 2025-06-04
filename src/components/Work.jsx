@@ -8,7 +8,7 @@ import Projectfour from '../images/project-4.jpg';
 
 const works = [
   {
-    imgSrc: {Projectone},
+    imgSrc: Projectone,
     title: '3D iPhone Website',
     tags: ['UI/UX, 3D models, custom animation'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'

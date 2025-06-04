@@ -1,11 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+
+
+
+
 const ButtonPrimary = ({
     href,
     target='_self',
     label,
     icon,
-    classes
+    classes,
+    onClick
 }) => {
     if (href){
         return(
@@ -26,7 +31,9 @@ const ButtonPrimary = ({
     }
     else{
   return (
-    <button className={`btn btn-primary ${classes || ""}`}>
+    <button
+    onClick={onClick}
+    className={`btn btn-primary ${classes || ""}`}>
         {label}
 
         {icon ? 
@@ -44,7 +51,8 @@ ButtonPrimary.propTypes ={
     href:PropTypes.string,
     target:PropTypes.string,
     icon:PropTypes.string,
-    classes:PropTypes.string
+    classes:PropTypes.string,
+    onClick:PropTypes.func
 }
 
 
@@ -95,5 +103,6 @@ ButtonOutline.propTypes ={
     target:PropTypes.string,
     icon:PropTypes.string,
     classes:PropTypes.string
+    
 }
 export { ButtonPrimary,ButtonOutline}
