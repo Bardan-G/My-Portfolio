@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
 
         <div className=" hidden lg:block ">
-          <figure className=" w-full w-max-[480px] mal-auto bg-gradient-to-t from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden">
+          <figure className=" w-full w-max-[480px] mal-auto bg-gradient-to-t from-white via-75% via-white-40/40 to-60% rounded-[60px] overflow-hidden">
             <img
               src= {ProfilePicture}
               width={656}
