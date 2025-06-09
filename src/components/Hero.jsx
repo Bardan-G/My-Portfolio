@@ -1,13 +1,12 @@
 import React from "react";
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import Avatar from "../images/avatar.jpg";
+import Avatar from "../images/avatar.png";
 import ProfilePicture from "../images/Profile.png";
 
-
 const handleDownload = () => {
-  const link = document.createElement('a');
-  link.href = '/ing cv.pdf';  
-  link.download = 'MyCV.pdf';
+  const link = document.createElement("a");
+  link.href = "/CV.pdf";
+  link.download = "Bardan-G-Neupane-CV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -21,7 +20,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className=" img-box w-9 h-9 rounded-lg">
               <img
-                src= {Avatar}
+                src={Avatar}
                 width={40}
                 height={40}
                 alt="Bardan Portfolio "
@@ -36,10 +35,14 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future 
+            Building Scalable Modern Websites for the Future
           </h2>
           <div className=" flex items-center  gap-3  ">
-            <ButtonPrimary label="Download CV" icon="download" onClick={handleDownload} />
+            <ButtonPrimary
+              label="Download CV"
+              icon="download"
+              onClick={handleDownload}
+            />
 
             <ButtonOutline
               href="#about"
@@ -50,13 +53,13 @@ const Hero = () => {
         </div>
 
         <div className=" hidden lg:block ">
-          <figure className=" w-full w-max-[480px] mal-auto bg-gradient-to-t from-white via-75% via-white-40/40 to-60% rounded-[60px] overflow-hidden">
+          <figure className=" w-full w-max-[480px] mal-auto bg-gradient-to-t from-white via-40% via-white-40/40 to-110% rounded-[60px] overflow-hidden">
             <img
-              src= {ProfilePicture}
+              src={ProfilePicture}
               width={656}
               height={800}
               alt="Bardan Profile Image"
-              className="w-full"
+              className="w-full "
             />
           </figure>
         </div>

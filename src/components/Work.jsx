@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
 import Projectone from '../images/project-1.jpg';
-import Projecttwo from '../images/project-2.jpg';
+import Projecttwo from '../images/project-2.png';
 import Projectthree from '../images/project-3.jpg';
 import Projectfour from '../images/project-4.jpg';
 
@@ -14,7 +14,7 @@ const works = [
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },
   {
-    imgSrc: {Projecttwo},
+    imgSrc: Projecttwo,
     title: 'Brainwave Website',
     tags: ['Deployment', 'SPA'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'

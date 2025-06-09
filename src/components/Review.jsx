@@ -56,7 +56,7 @@ const Review = () => {
 gsap.to('.scrub-slide',{
   scrollTrigger:{
     trigger:'.scrub-slide',
-    start:'-200% 80%',
+    start:'-200% 10%',
     end:'400 80%',
     scrub:true
   },
