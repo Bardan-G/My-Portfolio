@@ -57,7 +57,7 @@ gsap.to('.scrub-slide',{
   scrollTrigger:{
     trigger:'.scrub-slide',
     start:'-200% 10%',
-    end:'400 80%',
+    end:'400 10%',
     scrub:true
   },
   x:'-1000'

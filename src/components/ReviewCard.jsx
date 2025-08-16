@@ -5,7 +5,7 @@ import { style } from 'motion/react-client';
 const ratings = new Array(5);
 ratings.fill({
     icon: 'star',
-    style:{fontVariationSettings : '"FILL"1'}
+    style:{fontVariationSettings : '"FILL"2'}
 })
 
 
@@ -21,7 +21,7 @@ const ReviewCard = ({
             {ratings.map(({style,icon },key)=>(
                 <span
                 key={key}
-                className="material-symbols-rounded text-yellow-400   text-[15px]"
+                className="material-symbols-rounded text-yellow-300    text-9xl"
                 style={style}>
                     {icon}
                 </span>

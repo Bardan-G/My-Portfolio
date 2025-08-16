@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
-import Projectone from '../images/project-1.jpg';
+import Projectone from '../images/project-1.png';
 import Projecttwo from '../images/project-2.png';
 import Projectthree from '../images/project-3.jpg';
 import Projectfour from '../images/project-4.jpg';
@@ -9,7 +9,7 @@ import Projectfour from '../images/project-4.jpg';
 const works = [
   {
     imgSrc: Projectone,
-    title: '3D iPhone Website',
+    title: 'GTA 6',
     tags: ['UI/UX, 3D models, custom animation'],
     projectLink: 'https://github.com/Bardan-G?tab=overview&from=2025-05-01&to=2025-05-19'
   },

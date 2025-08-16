@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Projectone from '../images/project-1.jpg';
+import Projectone from '../images/project-1.png';
 const ProjectCard = ({
     imgSrc,
     title,
